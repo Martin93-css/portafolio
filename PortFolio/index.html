@@ -39,12 +39,9 @@
     />
 
     <!-----------------------------------------Tipografia  --------------------------------------->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
   </head>
   <body>
     <!-- Barra de navegacion -->
@@ -70,19 +67,19 @@
               class="navbar-nav d-flex justify-content-center align-items-center"
             >
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
+                <a class="nav-link active" aria-current="page" href="#sobre-mi-href"
                   >Sobre mi</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Proyectos</a>
+                <a class="nav-link" href="#proyectos">Proyectos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Testimonio</a>
+                <a class="nav-link" href="#testimonio">Testimonio</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link" href="#contacto">Contacto</a>
               </li>
             </ul>
           </div>
@@ -125,7 +122,7 @@
       </section>
       <!-- Sobre Mi -->
 
-      <section class="sobre-mi seccion-oscura">
+      <section id="sobre-mi-href" class="sobre-mi seccion-oscura">
         <div class="contenedor">
           <h2 class="seccion-titulo">Conoce a Martin Martinez</h2>
           <p class="seccion-texto">
@@ -142,6 +139,9 @@
             aprendí a realizar operaciones CRUD con bases de datos y a utilizar
             React y EJS para crear vistas dinámicas.
           </p>
+          <p class="seccion-texto">
+            Actualmente, estoy estudiando uso de PHP en EducacionIT.
+          </p> 
           <p class="seccion-texto">
             Estoy buscando mi primer trabajo como programador y estoy emocionado
             por las oportunidades que esto puede presentar. Estoy dispuesto a
@@ -203,31 +203,277 @@
 
       <!-- Proyectos -->
 
-      <section class="proyectos-recientes seccion-clara d-flex flex-column">
-          <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2> 
-          <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado Recientemente...</h3>
-          <!-- Galeria de proyectos -->
+      <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+        <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+        <h3 class="seccion-descripcion">
+          Estos son algunos proyectos que he creado Recientemente...
+        </h3>
+        <!-- Galeria de proyectos -->
         <div class="container text-center proyectos-contenedor">
-            <div class="row">
-                <div class="col-12 col-ml-6 col-lg-4">
-                    <div class="proyecto">
-                        <img src="imgs/proyecto1.png" alt="Proyecto 1">
-                        <div class="overlay">
-                            <p>Proyecto 1</p>
-                            <div class="iconos-contenedor">
-                              <a href="">
+          <div class="row">
+            <!-- Proyecto 1 -->
+            <div class="col-12 col-ml-6 col-lg-4">
+              <div class="proyecto">
+                <img src="imgs/proyecto1.png" alt="Proyecto 1" />
+                <div class="overlay">
+                  <p>Proyecto 1</p>
+                  <div class="iconos-contenedor">
+                    <a
+                      href="https://github.com/Martin93-css/grupo_12_teatroDHArena"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="bi bi-github"></i>
+                    </a>
+                    <a
+                      href="https://github.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="bi bi-laptop"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Proyecto 2 -->
+            <div class="col-12 col-ml-6 col-lg-4">
+              <div class="proyecto">
+                <img src="imgs/proyecto2.png" alt="Proyecto 1" />
+                <div class="overlay">
+                  <p>Proyecto 2</p>
+                  <div class="iconos-contenedor">
+                    <a
+                      href="https://github.com/Martin93-css/MercadoLiebre-React"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="bi bi-github"></i>
+                    </a>
+                    <a
+                      href="https://github.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="bi bi-laptop"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Proyecto 3 -->
+            <div class="col-12 col-ml-6 col-lg-4">
+              <div class="proyecto">
+                <img src="imgs/proyecto3.png" alt="Proyecto 1" />
+                <div class="overlay">
+                  <p>Proyecto 3</p>
+                  <div class="iconos-contenedor">
+                    <a
+                      href="https://github.com/Martin93-css/MercadoLiebreApis"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="bi bi-github"></i>
+                    </a>
+                    <a
+                      href="https://github.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="bi bi-laptop"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a
+          href="https://github.com/Martin93-css"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button type="button" class="btn btn-info">
+            Ver más proyectos
+            <i class="bi bi-arrow-right-circle-fill"></i>
+          </button>
+        </a>
+      </section>
 
-                              </a>
-                            </div>
-                        </div>
+      <!--Articulos-->
+
+      <section class="articulos justify-content-start">
+        <h2 class="seccion-titulo texto-negro">Articulos</h2>
+        <div class="card">
+          <div class="card-header">Más recientes</div>
+          <ul class="list-group list-group-flush">
+            <a
+              href="https://rapidapi.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <li class="list-group-item">
+                Colección de APIs para programadores.
+              </li>
+            </a>
+            <a
+              href="https://delacruzdev.notion.site/Apply-to-tech-companies-with-this-CV-template-fd977e7e715d4445a6ba1878a500e327"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <li class="list-group-item">
+                ¿Estás buscando trabajo en una empresa Tech? ¡Esta plantilla
+                para crear tu CV te ayuda a conseguirlo!
+              </li>
+            </a>
+            <a
+              href="https://www.fl0.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <li class="list-group-item">
+                ¿Buscas donde desplegar tu Web o Backend gratis?
+              </li>
+            </a>
+          </ul>
+        </div>
+        <a
+          href="https://www.linkedin.com/in/martinmartinezdesarrolladorweb"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button type="button" class="btn btn-info">
+            Ver más proyectos
+            <i class="bi bi-arrow-right-circle-fill"></i>
+          </button>
+        </a>
+      </section>
+
+      <!-- Testimonios -->
+
+      <section id="testimonios" class="testimonios seccion-clara">
+        <h2 class="seccion-titulo">Testimonios</h2>
+        <h3 class="seccion-descripcion">
+          Estos son algunos testimonios de mis profesores y compañeros
+        </h3>
+        <!-- Carrusel -->
+        <div id="testimonios-carrusel" class="carousel carousel-dark slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+             <div class="container">
+                <img src="imgs/cliente1.svg" alt="Imagen Cliente" class="testimonio-imagen rounded-circle">
+                <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga dignissimos excepturi incidunt qui laboriosam delectus dolores odit rem .</p>
+                <div class="testimonio-info">
+                    <p class="cliente">Gino</p>
+                    <p class="cargo">Gerente</p>
+                </div>
+
+             </div>
+            
+            </div>
+            
+            <div class="carousel-item">
+                <div class="container">
+                    <img src="imgs/cliente2.svg" alt="Imagen Cliente" class="testimonio-imagen rounded-circle">
+                    <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga dignissimos excepturi incidunt qui laboriosam delectus dolores odit rem .</p>
+                    <div class="testimonio-info">
+                        <p class="cliente">Gino</p>
+                        <p class="cargo">Gerente</p>
                     </div>
+    
+                 </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <img src="imgs/cliente3.svg" alt="Imagen Cliente" class="testimonio-imagen rounded-circle">
+                    <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga dignissimos excepturi incidunt qui laboriosam delectus dolores odit rem .</p>
+                    <div class="testimonio-info">
+                        <p class="cliente">Gino</p>
+                        <p class="cargo">Gerente</p>
+                    </div>
+    
+                 </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#testimonios-carrusel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#testimonios-carrusel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+      </section>
+
+
+      <!-- Contacto -->
+      <section id="contacto" class="contacto seccion-oscura">
+        <div class="container">
+            <div class="container text-center d-flex justify-content-evenly rectangulo">
+                <div class="row">
+                    <div class="col-12 col-md-4 seccion-titulo">
+                        ¡Hablemos!
+                    </div>
+                    <div class="col-12 col-md-4 descripcion">
+                        Contáctame para iniciar tu proyecto de desarrollo web y haré que te visión se vuelva realidad.
+
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <a href="mailto:martinlaureano.it@gmail.com">
+                         <button type="button">
+                            Contacto
+                            <i class="bi bi-envelope-check"></i>
+                         </button>
+                        </a>
+
+                    </div>
+
                 </div>
             </div>
 
         </div>
 
-      </section>
+      </section>c
+
+
     </main>
+
+    <!-- Seccion Footer -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+        <img class="footer-logo" src="imgs/icono-blanco.svg" alt="Logo de Portafolio">
+        <p class="footer-texto text-center">Aprendo y creo todos los días <br> Creemos un proyecto juntos</p>
+        <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+            <a href="https://www.linkedin.com/in/martinmartinezdesarrolladorweb" target="_blank"
+            rel="noopener noreferrer">
+                <i class="bi bi-linkedin"></i>    
+            </a>
+            <a href="https://github.com/Martin93-css" target="_blank"
+            rel="noopener noreferrer">
+            <i class="bi bi-github"></i>   
+            </a>
+            <a href="https://www.instagram.com/tin.deunaa/" target="_blank"
+            rel="noopener noreferrer">
+            <i class="bi bi-instagram"></i>
+            </a>
+            <a href="mailto:martinlaureano.it@gmail.com" target="_blank"
+            rel="noopener noreferrer">
+            <i class="bi bi-envelope"></i>
+            </a>
+        </div>
+
+         <div class="derechos-de-autor">Creado por Martin Martinez (2023) &#169;</div>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
