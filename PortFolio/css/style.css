@@ -501,6 +501,15 @@ footer {
   }
 }
 
+@media screen and (max-width: 550px) {
+  .testimonios p {
+    
+    font-size: 12.5px;
+
+    
+  }
+}
+
 @media screen and (max-width: 400px) {
    
   .overlay {
